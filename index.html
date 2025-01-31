@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-03-Category-0002</title>
+    <!-- sora Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- Font awesome cdn -->
+<script src="https://kit.fontawesome.com/4ca2241135.js" crossorigin="anonymous"></script>
+<!-- daisyUI cdn -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    .sora{
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;}
+  </style>
+   <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'btn-primary-3': '#179800',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="sora">
+<header>
+  <!-- nav section -->
+<nav class="md:container mx-auto">
+
+  <div class="navbar px-0">
+    <div class="flex  flex-row-reverse border border-[#179800] w-full mx-auto justify-between md:flex-1  md:block md:border-none md:flex-row-reverse">
+      <div class="dropdown  ">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 text-[#179800]"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+      </div>
+      <div>
+      <a class=""><img src="./c2-assets/logo-header.png" alt=""></a></div>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1 text-xl">
+        <li><a>Product</a></li>
+        <li><a>Services</a></li>
+        <li><a>Contact us</a></li>
+      </ul>
+    </div>
+    <div class=" hidden md:flex lg:ml-28">
+      <i class="text-2xl mr-6 fa-solid fa-magnifying-glass  "></i>
+      <i class="text-2xl mr-6 fa-solid fa-cart-shopping"></i>
+      <button class="btn btn-outline btn-success w-28 h-12 mr-3">Login</button>
+      <button class="btn btn-xs w-36 h-12 bg-btn-primary-3 text-[#FFFFFF] font-normal text-xl">Register</button>
+    </div>
+  </div>
+
+</nav>
+</header>
+<main>
+
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
